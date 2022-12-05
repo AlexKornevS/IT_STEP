@@ -1,0 +1,37 @@
+@media screen and (max-width:690px) {
+  a {
+     font-size: 12px;
+  }
+}
+/*  */
+@media screen and (max-width:450px) {
+  .main {
+    height: 400px;
+  }
+  .main h1 {
+     font-size: 28px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .footer {
+    width: 100%;
+     padding: 0;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .nav_item, .header, .footer {
+    height: auto;
+    padding: 0 0;
+      a {
+        width: 100%;
+        display: flex;
+        font-size: 20px;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        margin: 0.4rem 0;
+      }
+  }
+}
